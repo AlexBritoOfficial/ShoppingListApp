@@ -50,8 +50,27 @@ fun ShoppingListApp() {
                 .fillMaxSize()
                 .padding(16.dp)
         ) {
-            items(stateShoppingListItems) {
-                ShoppingListItem(it, isEditClick = {  }, onDeleteClick = {})
+            items(stateShoppingListItems) { shoppingItem ->
+
+                if(shoppingItem.isEditing){
+                    ShoppingItemEditor(shoppingItem = shoppingItem, onEditComplete =  { editedName, editedQuantity ->
+                        stateShoppingListItems = stateShoppingListItems.map { it.copy(isEditing = false) }
+
+                        val editedItem = stateShoppingListItems.find { it.id.equals(shoppingItem.id) }
+                        editedItem?.let {
+                            it.itemName = editedName
+                            it.quantity = editedQuantity
+                        }
+                    })
+                }
+
+                else {
+                    ShoppingListItem(shoppingItem, isEditClick = {
+                        stateShoppingListItems = stateShoppingListItems.map { it.copy(isEditing = it.id == shoppingItem.id) }
+                    }, onDeleteClick = {
+                        stateShoppingListItems = stateShoppingListItems - shoppingItem
+                    })
+                }
             }
         }
     }
