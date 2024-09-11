@@ -1,0 +1,257 @@
+{
+  "plus_code": {
+    "compound_code": "8R2M+P7F Boston, MA, USA",
+    "global_code": "87JC8R2M+P7F"
+  },
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "26",
+          "short_name": "26",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Bryon Road",
+          "short_name": "Bryon Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Chestnut Hill",
+          "short_name": "Chestnut Hill",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "02467",
+          "short_name": "02467",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "26 Bryon Rd, Chestnut Hill, MA 02467, USA",
+      "geometry": {
+        "location": {
+          "lat": 42.30185150000001,
+          "lng": -71.16665639999999
+        },
+        "location_type": "RANGE_INTERPOLATED",
+        "viewport": {
+          "northeast": {
+            "lat": 42.30320048029151,
+            "lng": -71.1653074197085
+          },
+          "southwest": {
+            "lat": 42.30050251970851,
+            "lng": -71.1680053802915
+          }
+        }
+      },
+      "place_id": "EikyNiBCcnlvbiBSZCwgQ2hlc3RudXQgSGlsbCwgTUEgMDI0NjcsIFVTQSIaEhgKFAoSCVVnMrPJeOOJEUw3ySwMNUftEBo",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "8R2M+P7",
+          "short_name": "8R2M+P7",
+          "types": [
+            "plus_code"
+          ]
+        },
+        {
+          "long_name": "Boston",
+          "short_name": "Boston",
+          "types": [
+            "locality",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        }
+      ],
+      "formatted_address": "8R2M+P7 Boston, MA, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.301875,
+            "lng": -71.16674999999999
+          },
+          "southwest": {
+            "lat": 42.30175,
+            "lng": -71.166875
+          }
+        },
+        "location": {
+          "lat": 42.3018102,
+          "lng": -71.1668162
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.30316148029151,
+            "lng": -71.1654635197085
+          },
+          "southwest": {
+            "lat": 42.30046351970851,
+            "lng": -71.16816148029152
+          }
+        }
+      },
+      "place_id": "GhIJs0x1t6EmRUARWtzaHa3KUcA",
+      "plus_code": {
+        "compound_code": "8R2M+P7 Boston, MA, USA",
+        "global_code": "87JC8R2M+P7"
+      },
+      "types": [
+        "plus_code"
+      ]
+    },
+    {
+      "address_components": [
+        {
+          "long_name": "24-26",
+          "short_name": "24-26",
+          "types": [
+            "street_number"
+          ]
+        },
+        {
+          "long_name": "Bryon Road",
+          "short_name": "Bryon Rd",
+          "types": [
+            "route"
+          ]
+        },
+        {
+          "long_name": "Chestnut Hill",
+          "short_name": "Chestnut Hill",
+          "types": [
+            "neighborhood",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Suffolk County",
+          "short_name": "Suffolk County",
+          "types": [
+            "administrative_area_level_2",
+            "political"
+          ]
+        },
+        {
+          "long_name": "Massachusetts",
+          "short_name": "MA",
+          "types": [
+            "administrative_area_level_1",
+            "political"
+          ]
+        },
+        {
+          "long_name": "United States",
+          "short_name": "US",
+          "types": [
+            "country",
+            "political"
+          ]
+        },
+        {
+          "long_name": "02467",
+          "short_name": "02467",
+          "types": [
+            "postal_code"
+          ]
+        }
+      ],
+      "formatted_address": "24-26 Bryon Rd, Chestnut Hill, MA 02467, USA",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 42.302052,
+            "lng": -71.16636609999999
+          },
+          "southwest": {
+            "lat": 42.30165460000001,
+            "lng": -71.16693149999999
+          }
+        },
+        "location": {
+          "lat": 42.30184939999999,
+          "lng": -71.1666535
+        },
+        "location_type": "GEOMETRIC_CENTER",
+        "viewport": {
+          "northeast": {
+            "lat": 42.30320228029151,
+            "lng": -71.16529981970848
+          },
+          "southwest": {
+            "lat": 42.30050431970851,
+            "lng": -71.16799778029149
+          }
+        }
+      },
+      "place_id": "ChIJVWcys8l444kRTDfJLAw1R-0",
+      "types": [
+        "route"
+      ]
+    }
+  ],
+  "status": "OK"
+}
+
